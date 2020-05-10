@@ -1,11 +1,10 @@
 /*
- * Author 	: HIMANSHU GUPTA 
- * Email 		: himanshucse2012@gmail.com
- * Website	:	http://www.indioweb.in/portfolio
+ * Author 	: Hufeng Zhou 
+ * Email 		: hzhou@hsph.harvard.edu
+ * Website	:	http://covid19-analysis.org
+ *@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
  */
- 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
- 
+
 /*
  * Basic CSS starts 
  */
@@ -25,12 +24,13 @@ h1,h2,h3,h4,h5,h6{
 p{
 	margin:0;
 	padding:0;
-	color: #787878;
+  color: #787878;
 }
 
 a{
 	text-decoration: none;
-	color: #d65814;
+	color: #288f8d;
+  #color: #d65814;
 }
 
 a:hover{
@@ -60,7 +60,9 @@ hr{
 
 header .navbar { 
 	margin: 0;
-	background: #d65814;
+  #background: #d65814;
+  #background: #288f8d;
+	background: #154f4f;
 	border-radius: 0;
 	border-bottom: 2px solid rgba(0,0,0,0.2); 
 	box-shadow: 0 1px 15px rgba(0,0,0,0.2);
@@ -104,7 +106,8 @@ header .navbar-nav .dropdown-menu:after {
 
 header .navbar-nav .dropdown-menu:before {
 	border-color: rgba(194, 225, 245, 0);
-	border-bottom-color: #d65814;
+	border-bottom-color: #288f8d;
+  #border-bottom-color: #d65814;
 	border-width: 8px;
 	margin-right: -1px;
 }
@@ -123,7 +126,8 @@ header .navbar-brand img {
  */
  
 .banner {
-	background: #e47133;
+	background: #288f8d;
+  #background: #e47133;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
@@ -387,7 +391,8 @@ header .navbar-brand img {
 footer {
 	margin-top: 80px;
 	padding: 50px 0;
-	background: #d65814;
+	background: #288f8d;
+  #background: #d65814;
 	text-align: center;
 	border-top: 1px solid rgba(0,0,0,0.1);
 }
@@ -424,7 +429,8 @@ footer .social a  i {
 	height: 100%;
 	line-height: 30px;
 	border-radius: 50%;
-	border: 1px dashed #d65814;
+	border: 1px dashed #288f8d;
+  #border: 1px dashed #d65814;
 }
 
 footer .copy-right {
