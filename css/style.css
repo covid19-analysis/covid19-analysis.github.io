@@ -11,14 +11,14 @@
 
 body{
 	font-family: 'Open Sans', Sans Serif;
-	font-weight: 400;
+	font-weight: 600;
 	color: #545454;
 	-webkit-font-smoothing: antialiased;
 }
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Open Sans', Sans Serif;
-	font-weight: 600;
+	font-weight: 800;
 }
 
 p{
@@ -136,8 +136,8 @@ header .navbar-brand img {
 .banner h2 {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 28px;
-	line-height: 35px;
+	font-size: 66px;
+	line-height: 76px;
 	color: #eee;
 	text-transform: capitalize;
 }
@@ -145,8 +145,8 @@ header .navbar-brand img {
 	max-width: 700px;
 	margin: 0 auto;
 	margin-top: 10px;
-	font-size: 13px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 26px;
 	color: #ddd;
 	text-transform: uppercase;
 	letter-spacing: 0.055em;
