@@ -120,7 +120,8 @@ header .navbar {
   #background: #d65814;
   #background: #288f8d;
   #background: #154f4f;
-	background: #7bb3b3;
+  #background: #7bb3b3;
+	background: #97b9c9;
 	border-radius: 0;
 	border-bottom: 2px solid rgba(0,0,0,0.2); 
 	box-shadow: 0 1px 15px rgba(0,0,0,0.2);
@@ -184,8 +185,9 @@ header .navbar-brand img {
  */
  
 .banner {
-	background: #288f8d;
+  #background: #288f8d;
   #background: #e47133;
+  background: #3e7787;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
