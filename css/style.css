@@ -483,34 +483,6 @@ footer .copy-right {
 /*
  * Responsive CSS 
  */
-
-/*
- * Mobile phones 
- */
-@media (max-width: 480px){
-
-}
-
-/*
- * Tablets 
- */
-@media (max-width: 767px){
-	header .navbar-brand img { max-width: 140px; top: 3px; }
-	header .navbar-nav .dropdown-menu:after, 
-	header .navbar-nav .dropdown-menu:before { display: none;}
-	header .navbar-nav .dropdown-menu li a { color: #fff !important;}
-	header .navbar-default .navbar-toggle .icon-bar {background: #fff;	}
-	header .navbar-collapse { border: 0; box-shadow: none; }
-	header .navbar-default .navbar-toggle,
-	header .navbar-default .navbar-toggle:hover,
-	header .navbar-default .navbar-toggle:focus	{
-		background: transparent;
-		border-color: #fff;
-	}
-	
-	.default-heading {text-align: center;}
-}
-
 /*
  * Desktop 
  */
