@@ -16,6 +16,13 @@ body{
 	-webkit-font-smoothing: antialiased;
 }
 
+.watermarked{
+  #background-image: url("img/covid19logo3.png");
+  position: relative;
+  left: 30px;
+  opacity: 0.3;
+}
+
 #wd{
 	margin-left: 15px;
 	color: white;
