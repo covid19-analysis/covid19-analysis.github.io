@@ -19,7 +19,7 @@ body{
 .watermarked{
   #background-image: url("https://covid19-analysis.github.io/img/covid19logo3.png");
   position: relative;
-  left: 30px;
+  #left: 0px;
   opacity: 0.3;
 }
 
