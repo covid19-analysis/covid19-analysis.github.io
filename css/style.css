@@ -25,6 +25,15 @@ body{
   opacity: 0.3;
 }
 
+.wmk{
+  background-image: url("https://covid19-analysis.github.io/img/covid19logo3.png") no-repeat;
+  background-size:100% 100%;
+  position: relative;
+  #width="420" height="460"
+  #left: 0px;
+  opacity: 0.8;
+}
+
 #watermark {
   height: 450px;
   width: 600px;
