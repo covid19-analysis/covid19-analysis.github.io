@@ -452,8 +452,9 @@ header .navbar-brand img {
 footer {
 	margin-top: 80px;
 	padding: 50px 0;
-	background: #288f8d;
+  #background: #288f8d;
   #background: #d65814;
+  background: #3e7787;
 	text-align: center;
 	border-top: 1px solid rgba(0,0,0,0.1);
 }
