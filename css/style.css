@@ -32,11 +32,12 @@ body{
 .wmk{
   background-image: url("https://covid19-analysis.github.io/img/covid19logo4OP.png") ;
 	background-position-x: 50%;
-	height: 531px;
+	height: 366px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	background-size: 70% 100%;
 }
 
 #watermark {
@@ -200,7 +201,7 @@ header .navbar-brand img {
 	font-size: 66px;
 	line-height: 76px;
 	color: #eee;
-	text-transform: capitalize;
+  #text-transform: capitalize;
 }
 .banner p {
 	max-width: 700px;
@@ -209,7 +210,7 @@ header .navbar-brand img {
 	font-size: 18px;
 	line-height: 26px;
 	color: #ddd;
-	text-transform: uppercase;
+  #text-transform: uppercase;
 	letter-spacing: 0.055em;
 }
 
