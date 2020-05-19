@@ -189,8 +189,8 @@ header .navbar-brand img {
   #background: #288f8d;
   #background: #e47133;
   background: #3e7787;
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
@@ -451,7 +451,7 @@ header .navbar-brand img {
 
 footer {
 	margin-top: 80px;
-	padding: 50px 0;
+	padding: 3px 0;
   #background: #288f8d;
   #background: #d65814;
   background: #3e7787;
