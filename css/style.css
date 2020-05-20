@@ -32,12 +32,12 @@ body{
 .wmk{
   background-image: url("https://covid19-analysis.github.io/img/covid19logo4OP.png") ;
 	background-position-x: 50%;
-	height: 366px;
+	height: 300px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	background-size: 70% 100%;
+	background-size: 68% 98%;
 }
 
 #watermark {
@@ -76,7 +76,8 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Open Sans', Sans Serif;
+	font-family: 'Lato';
+ #font-family: 'Open Sans', Sans Serif;
 	font-weight: 800;
 }
 
@@ -84,6 +85,7 @@ p{
 	margin:0;
 	padding:0;
   color: #787878;
+	font-family: 'Lato';
 }
 
 a{
@@ -259,7 +261,7 @@ header .navbar-brand img {
  */
 
 .event {
-	padding-top: 60px;
+	padding-top: 1px;
 }
 
 .event .event-item {
