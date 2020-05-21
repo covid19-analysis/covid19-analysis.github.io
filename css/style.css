@@ -3,7 +3,7 @@
  * Email 		: hzhou@hsph.harvard.edu
  * Website	:	http://covid19-analysis.org
  */
-@import url('https://fonts.googleapis.com/css?family=Lato')
+#@import url('https://fonts.googleapis.com/css?family=Lato')
 /*
  * Basic CSS starts
  */
@@ -298,159 +298,6 @@ header .navbar-brand img {
 }
 
 /*
- * blog
- */
-
-.blog {
-	padding-top: 60px;
-}
-
-.blog .entry {
-	max-width: 600px;
-	margin: 0 auto;
-	margin-top: 30px;
-}
-
-.blog .entry  h3 {
-	margin-top: 20px;
-	margin-bottom: 5px;
-	font-size: 20px;
-}
-
-.blog .entry .meta {
-	display: block;
-	margin-bottom: 10px;
-	font-size: 13px;
-	color: #787878;
-}
-
-.blog .entry  p {
-	font-size: 13px;
-	line-height: 23px;
-}
-
-.blog .text-center .btn {
-	margin-top: 30px;
-}
-
-/*
- * subscribe
- */
-
-.subscribe {
-	margin-top: 60px;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	background: #f8f8f8;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-}
-
-.subscribe .sub-content {
-	max-width: 600px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.subscribe .sub-content h3 {
-	margin-top: 0;
-	margin-bottom: 30px;
-	font-size: 30px;
-	font-weight: 400;
-}
-
-.subscribe .sub-content .form-control {
-	box-shadow: none !important;
-	border: 1px solid #ccc;
-	height: 50px;
-	font-size: 18px;
-}
-
-.subscribe .sub-content form .btn {
-	padding: 0 20px;
-	height: 50px;
-	line-height: 49px;
-	font-size: 18px;
-}
-
-/*
- * team
- */
-
-.team {
-	padding-top: 60px;
-}
-
-.team .member {
-	max-width: 300px;
-	margin: 0 auto;
-	margin-top: 30px;
-}
-
-.team .member img {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-}
-
-.team .member  h3 {
-	margin-top: 20px;
-	margin-bottom: 5px;
-	font-size: 22px;
-}
-
-.team .member .dig {
-	display: block;
-	font-size: 13px;
-	color: #787878;
-}
-
-/*
- * login & registration page content
- */
-
-.login-area,
-.register-area {
-	max-width: 450px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.login-area h3,
-.register-area h3 {
-	margin-top: 0;
-	margin-bottom: 25px;
-	font-size: 22px;
-	color: #fff;
-}
-
-.login-area form,
-.register-area form {
-	max-width: 400px;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	text-align: left;
-}
-.login-area form label ,
-.register-area form label { color: #fff; }
-.login-area form .form-control,
-.register-area form .form-control {
-	box-shadow: none !important;
-	border: 1px solid #d3d3d3;
-	border-radius: 2px;
-	height: 45px;
-	font-size: 16px;
-}
-.login-area form .btn {
-	display: block;
-	width: 100%;
-	margin-top: 15px;
-}
-.register-area form .btn {
-	margin-top: 5px;
-}
-
-/*
  * footer
  */
 
@@ -476,7 +323,9 @@ footer p a {
 	letter-spacing: 0.055em;
 	color: #fff;
 }
+
 footer p a:hover { color: #a93c01; }
+
 footer .social a {
 	display: inline-block;
 	margin: 0 2px;
@@ -504,40 +353,3 @@ footer .copy-right {
 	margin-top: 5px;
 }
 
-/*
- * Responsive CSS
- */
-
-/*
- * Mobile phones
- */
-@media (max-width: 480px){
-
-}
-
-/*
- * Tablets
- */
-@media (max-width: 767px){
-	header .navbar-brand img { max-width: 140px; top: 3px; }
-	header .navbar-nav .dropdown-menu:after,
-	header .navbar-nav .dropdown-menu:before { display: none;}
-	header .navbar-nav .dropdown-menu li a { color: #fff !important;}
-	header .navbar-default .navbar-toggle .icon-bar {background: #fff;	}
-	header .navbar-collapse { border: 0; box-shadow: none; }
-	header .navbar-default .navbar-toggle,
-	header .navbar-default .navbar-toggle:hover,
-	header .navbar-default .navbar-toggle:focus	{
-		background: transparent;
-		border-color: #fff;
-	}
-
-	.default-heading {text-align: center;}
-}
-
-/*
- * Desktop
- */
-@media (max-width: 991px){
-
-}
