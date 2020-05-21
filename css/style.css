@@ -10,7 +10,8 @@
  */
 
 body{
-	font-family: 'Open Sans', Sans Serif;
+	#font-family: 'Open Sans', Sans Serif;
+	font-family: 'Lato';
 	font-weight: 600;
 	color: #545454;
 	-webkit-font-smoothing: antialiased;
@@ -32,12 +33,12 @@ body{
 .wmk{
   background-image: url("https://covid19-analysis.github.io/img/covid19logo4OP.png") ;
 	background-position-x: 50%;
-	height: 300px;
+	height: 333px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	background-size: 68% 98%;
+	background-size: 68% 99%;
 }
 
 #watermark {
@@ -72,7 +73,7 @@ body{
   #color: white;
   #font-weight: 600;
 	font-size: 18px;
-  text-transform:uppercase;
+  #text-transform:uppercase;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -203,7 +204,7 @@ header .navbar-brand img {
 	font-size: 66px;
 	line-height: 76px;
 	color: #eee;
-	font-family: 'Lato'
+	font-family: 'Lato';
   #text-transform: capitalize;
 }
 .banner p {
